@@ -1,12 +1,14 @@
 # Glossario dei termini inglesi nel mondo del UX/UI design
 
-Web app sviluppata per gli studenti del corso di UX/UI design che insegno in Boolean. Alcuni studenti hanno difficoltà a comprendere termini inglesi usati nel mondo del design. Arrivano da altri mondi, dove il gergo inglese non ha ancora attecchito. O forse lo ha fatto, ormai è come l'erbaccia cattiva, si trova ovunque. 
+Web app sviluppata per gli studenti del corso di UX/UI design che insegno in Boolean. Alcuni studenti, all'inizio del corso, hanno difficoltà a comprendere termini inglesi usati nel mondo del design. Arrivano da altri mondi, mondi forse più sani dove si usano solo parole italiane.
 
-Quest'appina può aiutare gli studenti che hanno la voglia e disciplina di studiarsi una lista di termini fuori dal contesto di una conversazione. Io non ho imparato i termini così, ho imparato per osmosi e imitazione. Ma ho creato l'app lo stesso, tanto per non dare scuse a nessuno :) 
+Quest'appina può aiutare gli studenti che hanno la voglia e disciplina di studiarsi una lista di termini fuori dal contesto di una conversazione. Io NON ho imparato i termini così, ho imparato per osmosi e imitazione. Ma ho creato l'app lo stesso, tanto per non dare scuse a nessuno :) 
 
-L'app è poco più di una lista statica di termini inglesi con le rispettive traduzioni. A questo si aggiunge la possibilità di testare la propria conoscenza con delle flashcards. Leggere una lista non solo è noioso ma è un'approccio passivo.  Le flashcards invece sono un approccio un poco più attivo, e senz'altro più efficace. A quel punto la lista può essere usata solo come semplice reference.
+L'app è poco più di una lista di termini inglesi con le rispettive definizioni in italiano. A questo si aggiunge la possibilità di testare la propria conoscenza con delle flashcards. Leggere una lista è un'approccio passivo e noioso. Le flashcards sono un approccio più attivo, e senz'altro più efficace. A quel punto la lista può essere usata solo come semplice reference (tanto per usare un termine inglese!).
 
 ## todos
+
+Termini da aggiungere:
 
 - view: vista. pagina web, screen mobile
 - artboard
@@ -20,8 +22,8 @@ L'app è poco più di una lista statica di termini inglesi con le rispettive tra
 - switch button
 - flat design
 - affordance
-- signifier
-- progressive discolsure
+- ? signifier
+- progressive disclosure
 - progress bar
 - slider
 - carousel
