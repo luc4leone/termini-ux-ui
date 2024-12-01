@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
+    <!-- responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Glossario termini inglesi nel mondo del UX/UI design</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- styles -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Header fisso -->
     <div class="header">
-        <h2 class="title">TERMINI INGLESI in UX/UI 🌍</h2>
+        <h2 class="title">UX/UI: <span class="hind-semibold" id="flashcardsCount"></span> TERMINI INGLESI</h2>
         <p class="subtitle">
-            vengono spesso usati anche in italiano
+            spesso usati anche in italiano
         </p>
 
     </div>
@@ -26,7 +32,7 @@
                        id="toggleFlashcards" 
                        onchange="toggleView()"
                        >
-                <label for="toggleFlashcards">allenati con <span class="hind-semibold" id="flashcardsCount"></span> flashcards</label>
+                <label for="toggleFlashcards">allenati con le flashcards</label>
             </div>
             <div class="section" id="terms-section">
                 
@@ -62,6 +68,11 @@
             </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>luca leone - 2024</p>
+    </footer>
 
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>

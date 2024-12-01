@@ -163,6 +163,7 @@ let currentIndex = 0;
             if (checkbox.checked) {
                 termsSection.style.display = 'none';
                 flashcardsSection.style.display = 'flex';
+                shuffleCards();
             } else {
                 termsSection.style.display = 'flex';
                 flashcardsSection.style.display = 'none';

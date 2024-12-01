@@ -21,7 +21,7 @@ const flashcards = [
     },
     {
         term: "breadcrumbs",
-        definition: "briciole di pane; componente UI che indica dove sei e ti permette di tornare sui tuoi passi",
+        definition: "briciole di pane; componente UI che ti indica dove sei e che ti permette di tornare indietro sui tuoi passi",
         url: "https://balsamiq.com/learn/ui-control-guidelines/breadcrumbs/"
     },
     {
@@ -41,12 +41,12 @@ const flashcards = [
     },
     {
         term: "component",
-        definition: "parte di una UI. esempio: form di login",
+        definition: "sotto-parte di una UI. esempio: form di login",
         url: ""
     },
     {
         term: "consistency",
-        definition: "coerenza' visiva e funzionale; è una delle euristiche di usabilità",
+        definition: "coerenza visiva e funzionale; è una delle euristiche di usabilità",
         url: ""
     },
     {
@@ -115,6 +115,11 @@ const flashcards = [
         url: "https://en.wikipedia.org/wiki/Hamburger_button"
     },
     {
+        term: "happy talk",
+        definition: "testo introduttivo, spesso inutile e che non aiuta l'utente a raggiungere il suo obiettivo",
+        url: "https://blog.codinghorror.com/happy-talk-must-die/"
+    },
+    {
         term: "header",
         definition: "la parte superiore di una UI, se prendiamo il browser come esempio, la parte dove c'è l'indirizzo web e le funzioni di navigazione",
         url: ""
@@ -140,14 +145,14 @@ const flashcards = [
         url: ""
     },
     {
-        term: "keyboard",
-        definition: "tastiera",
-        url: ""
-    },
-    {
         term: "input",
         definition: "un campo di input è un componente grafico che permette all'utente di inserire dati",
         url: "https://balsamiq.com/learn/ui-control-guidelines/text-input/"
+    },
+    {
+        term: "keyboard",
+        definition: "tastiera",
+        url: ""
     },
     {
         term: "layer",
@@ -176,13 +181,18 @@ const flashcards = [
     },
     {
         term: "navigation",
-        definition: "navigazione, il percorso che un utente segue per raggiungere un obiettivo all'interno di un sistema",
+        definition: "navigazione; il percorso che un utente segue per raggiungere un obiettivo all'interno di un sito web o di un'app",
         url: ""
     },
     {
         term: "on blur",
         definition: "si dice quando un elemento di una UI perde focus, per esempio quando si passa da un campo di input all'altro",
         url: ""
+    },
+    {
+        term: "onboarding",
+        definition: "processo che guida l'utente nell'uso di un'app o di un sito web la prima volta che lo usa",
+        url: "https://www.useronboard.com/"
     },
     {
         term: "palette",
@@ -215,6 +225,11 @@ const flashcards = [
         url: "https://balsamiq.com/learn/ui-control-guidelines/tabs/"
     },
     {
+        term: "tagline",
+        definition: "frase che descrive un'azienda o un prodotto, riassumendo in poche parole cosa lo caratterizza. sinonimi: payoff, claim",
+        url: ""
+    },
+    {
         term: "terminal",
         definition: "terminale; programma che permette di eseguire comandi e programmi attraverso una linea di comando (prompt)",
         url: ""
@@ -225,13 +240,13 @@ const flashcards = [
         url: "https://balsamiq.com/learn/ui-control-guidelines/tooltips-popovers/"
     },
     {
-        term: "underline",
-        definition: "sottolineato",
+        term: "UI",
+        definition: "user interface; interfaccia utente",
         url: ""
     },
     {
-        term: "UI",
-        definition: "user interface; interfaccia utente",
+        term: "underline",
+        definition: "sottolineato",
         url: ""
     },
     {
@@ -247,6 +262,11 @@ const flashcards = [
     {
         term: "user friendly",
         definition: "intuitivo, semplice da usare",
+        url: ""
+    },
+    {
+        term: "utilities",
+        definition: "quella parte dell'header di un sito web che si trova di solito allineata a destra e comprende una serie di link a: accedi | contatti | cerca",
         url: ""
     },
     {
