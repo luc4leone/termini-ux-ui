@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossario termini inglesi nel mondo del UX/UI design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header fisso -->
+    <div class="header">
+        <h2 class="title">TERMINI INGLESI in UX/UI 🌍</h2>
+        <p class="subtitle">
+            vengono spesso usati anche in italiano
+        </p>
+
+    </div>
+
+    <!-- Contenuto dinamico -->
+    <div class="content">
+        <div class="single-column">
+            <div class="checkbox-container">
+                <input type="checkbox" 
+                       id="toggleFlashcards" 
+                       onchange="toggleView()"
+                       >
+                <label for="toggleFlashcards">allenati con <span class="hind-semibold" id="flashcardsCount"></span> flashcards</label>
+            </div>
+            <div class="section" id="terms-section">
+                
+                <ul class="terms-list">
+                    <!-- Verrà popolato via JavaScript -->
+                </ul>
+            </div>
+
+            <div class="section flashcards-section" id="flashcards-section" style="display: none;">
+                <div class="card" onclick="flipCard()">
+                    <div class="card-inner">
+                        <div class="card-face card-front">
+                            <span id="term"></span>
+                            <a href="#" class="audio-button" onclick="event.preventDefault(); event.stopPropagation(); playTerm()">audio 🔈</a>
+                        </div>
+                        <div class="card-face card-back">
+                            <span id="definition"></span>
+                            <a href="http://www.example.com" target="_blank" class="learn-more" onclick="event.stopPropagation()">approfondisci ↗️</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="controls">
+                    <div class="row-1">
+                        <div class="button-container">
+                            <button onclick="shuffleCards()">
+                                <span>mostra la prossima</span>
+                                <span class="key-hint">tastiera: INVIO</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
