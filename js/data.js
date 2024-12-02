@@ -6,7 +6,7 @@ const flashcards = [
     },
     {
         term: "affordance",
-        definition: "affordance; un elemento di una UI che permette all'utente di capire come interagire con esso",
+        definition: "un elemento di una UI che permette all'utente di capire come interagire con esso",
         url: "https://www.youtube.com/watch?v=a6F0EYCUjcE"
     },
     {
