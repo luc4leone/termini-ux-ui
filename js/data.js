@@ -176,7 +176,7 @@ const flashcards = [
     },
     {
         term: "layer",
-        definition: "strato; la grafica di una UI può essere pensata come una millefoglie: costruita uno strato sopra l'altro. in Figma, ogni elemento è una layer",
+        definition: "strato; la grafica di una UI può essere pensata come una millefoglie: costruita uno strato sopra l'altro. in Figma, ogni elemento è un layer",
         url: "https://help.figma.com/hc/en-us/articles/360039831974-View-layers-and-pages-in-the-left-sidebar#layers"
     },
     {
