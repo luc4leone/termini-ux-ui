@@ -221,7 +221,7 @@ const flashcards = [
     },
     {
         term: "pointer",
-        definition: "il simbolo del cursore del mouse che assomiglia a una mano con l'indice che indica",
+        definition: "nome del cursore del mouse quando assomiglia a una mano con l'indice puntato",
         url: "https://www.w3schools.com/cssref/pr_class_cursor.php"
     },
     {

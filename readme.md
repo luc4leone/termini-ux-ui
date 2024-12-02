@@ -68,3 +68,5 @@ L'app è poco più di una lista di termini inglesi con le rispettive definizioni
 - png
 - jpeg
 
+## todos
+- indicare come usare l'app con la tastiera
