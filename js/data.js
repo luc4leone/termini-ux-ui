@@ -5,6 +5,11 @@ const flashcards = [
         url: "https://balsamiq.com/learn/ui-control-guidelines/accordions/"
     },
     {
+        term: "affordance",
+        definition: "affordance; un elemento di una UI che permette all'utente di capire come interagire con esso",
+        url: "https://www.youtube.com/watch?v=a6F0EYCUjcE"
+    },
+    {
         term: "animation",
         definition: "animazione; movimento / effetto grafico in una UI",
         url: ""
@@ -23,6 +28,16 @@ const flashcards = [
         term: "breadcrumbs",
         definition: "briciole di pane; componente UI che ti indica dove sei e che ti permette di tornare indietro sui tuoi passi",
         url: "https://balsamiq.com/learn/ui-control-guidelines/breadcrumbs/"
+    },
+    {
+        term: "cart",
+        definition: "carrello; in un sito e-commerce, il carrello contiene la lista dei prodotti che l'utente ha selezionato per l'acquisto",
+        url: ""
+    },
+    {
+        term: "checkout",
+        definition: "cassa / processo di pagamento; in un sito e-commerce, il checkout è il processo di pagamento",
+        url: ""
     },
     {
         term: "controls",
@@ -83,6 +98,11 @@ const flashcards = [
         term: "feedback",
         definition: "risposta; esempio: messaggio di errore dopo aver compilato il campo email",
         url: ""
+    },
+    {
+        term: "flat design",
+        definition: "grafica minimalista, senza effetti 3D, senza ombreggiature, senza texture, senza filtri, senza trasparenze, senza gradienti, senza effetti di luce, senza animazioni",
+        url: "https://it.wikipedia.org/wiki/Flat_design"
     },
     {
         term: "fold",
@@ -156,7 +176,7 @@ const flashcards = [
     },
     {
         term: "layer",
-        definition: "strato;la grafica di una UI può essere pensata come una millefoglie: costruita uno strato sopra l'altro. in Figma, ogni elemento è una layer",
+        definition: "strato; la grafica di una UI può essere pensata come una millefoglie: costruita uno strato sopra l'altro. in Figma, ogni elemento è una layer",
         url: "https://help.figma.com/hc/en-us/articles/360039831974-View-layers-and-pages-in-the-left-sidebar#layers"
     },
     {
