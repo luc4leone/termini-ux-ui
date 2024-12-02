@@ -4,8 +4,6 @@
     padding: 0;
 }
 
-
-
 body {
     align-items: center;
     background: #f0f0f4;
@@ -25,7 +23,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     width: 540px;
-
 }
 
 .main {
