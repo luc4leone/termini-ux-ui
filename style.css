@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
 body {
     align-items: center;
     background: #f0f0f4;
@@ -5,10 +13,49 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Hind', sans-serif;
+    font-size: 1.1em;
     justify-content: center;
     letter-spacing: 0.01em;
     margin: 0;
     min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 540px;
+
+}
+
+.main {
+    flex: 1;
+    padding: 0 16px 16px 0;
+}
+
+.header {
+    padding-top: 16px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    color: #666;
+    padding: 40px 16px 16px 20px;
+    width: 100%;
+}
+
+.footer p {
+    font-size: .9em;
+}
+
+.section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 16px;
+    width: 100%;
 }
 
 .hind-regular {
@@ -33,22 +80,6 @@ body {
     font-family: "Hind", sans-serif;
     font-weight: 700;
     font-style: normal;
-}
-
-
-.controls {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 100%;
-    max-width: 500px;
-}
-
-.controls .row-1 {
-    display: grid;
-    gap: 12px;
-    grid-template-columns: 1fr;
-    width: 100%;
 }
 
 button {
@@ -87,10 +118,8 @@ button:active {
 .card {
     cursor: pointer;
     height: 300px;
-    max-width: 500px;
-    perspective: 1000px;
     position: relative;
-    width: 90%;
+    width: 100%;
 }
 
 .card-inner {
@@ -162,9 +191,6 @@ button:active {
 
 .terms-list {
     list-style: none;
-    margin: 0;
-    max-width: 500px;
-    padding: 0;
 }
 
 .terms-list li {
@@ -178,26 +204,15 @@ button:active {
     padding-top: 16px;
 }
 
+/* first li no padding-top*/
+.terms-list li:first-child {
+    padding-top: 0;
+}
+
 .term-content {
     flex: 1;
 }
 
-.flashcards-section {
-    padding-top: 16px;
-}
-
-.single-column {
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-.section {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 100%;
-}
 
 .learn-more {
     bottom: 20px;
@@ -213,61 +228,7 @@ button:active {
     text-decoration: underline;
 }
 
-/* Media query per il layout generale */
-@media (max-width: 768px) {
-    body {
-        padding: 12px;
-    }
 
-    .card {
-        height: 260px;  /* Ridotta altezza su mobile */
-        width: 100%;
-    }
-
-
-    .controls {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        padding: 0 12px;
-        width: 100%;
-    }
-
-    .controls .row-1 {
-        display: grid;
-        gap: 12px;
-        grid-template-columns: 1fr;
-    }
-
-    .filters {
-        justify-content: center;
-        margin-bottom: 0;
-        width: 100%;
-    }
-
-    .filter-link {
-        padding: 8px 16px;
-    }
-
-    .section {
-        width: 100%;
-    }
-
-    .single-column {
-        flex-direction: column;
-        gap: 32px;
-        padding: 0;
-    }
-
-    .terms-list {
-        width: 100%;
-    }
-
-    .terms-list li {
-        font-size: 16px;
-        padding: 12px;
-    }
-}
 
 
 .audio-link {
@@ -320,7 +281,6 @@ button:active {
 
 .subtitle {
     color: #16161D;
-    font-size: 16px;
     font-style: italic;
     letter-spacing: 0.02em;
     line-height: 1.4;
@@ -334,26 +294,22 @@ button:active {
     align-items: center;
     display: flex;
     gap: 8px;
-    margin-bottom: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 500px;
-    width: 100%;
+    padding-top: 16px;
 }
 
 .checkbox-container input[type="checkbox"] {
     appearance: none;
     background-color: #f0f0f4;
     border: 1px solid #6C6C93;
-    border-radius: 3px;
+    border-radius: 2px;
     cursor: pointer;
-    height: 16px;
+    height: 18px;
     margin: 0;
     outline: none;
     position: relative;
-    transition: all 0.2s;
+    transition: all 0.15s;
     -webkit-appearance: none;
-    width: 16px;
+    width: 18px;
 }
 
 .checkbox-container input[type="checkbox"]:checked {
@@ -366,7 +322,7 @@ button:active {
     border-width: 0 2px 2px 0;
     content: '';
     height: 9px;
-    left: 4px;
+    left: 5px;
     position: absolute;
     top: 0px;
     transform: rotate(45deg);
@@ -384,26 +340,10 @@ button:active {
 .checkbox-container label {
     color: #16161D;
     cursor: pointer;
+    margin-top: 2px;
 }
 
-.header {
-    text-align: center;
-    margin-bottom: 32px;
-    padding: 20px;
-}
 
-.content {
-    flex: 1;
-    padding: 20px;
-    width: 100%;
-}
-
-.button-container {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
 
 .key-hint {
     color: #6C6C93;
@@ -412,14 +352,13 @@ button:active {
     opacity: 0.8;
 }
 
-.footer {
-    text-align: center;
-    color: #666;
-    font-size: 14px;
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
-
-.footer p {
-    margin: 0;
+/* media queries */
+@media (width < 540px) {
+    .container {
+        width: 100%;
+    }
+    .main {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
 }

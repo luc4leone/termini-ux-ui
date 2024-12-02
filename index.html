@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header fisso -->
-    <div class="header">
+    <div class="container">
+
+        <!-- Header fisso -->
+        <div class="header">
         <h2 class="title">UX/UI: <span class="hind-semibold" id="flashcardsCount"></span> TERMINI INGLESI</h2>
         <p class="subtitle">
             spesso usati anche in italiano
@@ -25,8 +27,8 @@
     </div>
 
     <!-- Contenuto dinamico -->
-    <div class="content">
-        <div class="single-column">
+    <div class="main">
+
             <div class="checkbox-container">
                 <input type="checkbox" 
                        id="toggleFlashcards" 
@@ -34,6 +36,7 @@
                        >
                 <label for="toggleFlashcards">allenati con le flashcards</label>
             </div>
+
             <div class="section" id="terms-section">
                 
                 <ul class="terms-list">
@@ -55,24 +58,20 @@
                     </div>
                 </div>
 
-                <div class="controls">
-                    <div class="row-1">
-                        <div class="button-container">
-                            <button onclick="shuffleCards()">
-                                <span>mostra la prossima</span>
-                                <span class="key-hint">tastiera: INVIO</span>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <button onclick="shuffleCards()">
+                    <span>mostra la prossima</span>
+                    <span class="key-hint">tastiera: INVIO</span>
+                </button>
+            </div> 
+
     </div>
 
     <!-- Footer -->
     <footer class="footer">
         <p>luca leone - 2024</p>
     </footer>
+    </div>
+
 
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
