@@ -67,6 +67,9 @@ L'app è poco più di una lista di termini inglesi con le rispettive definizioni
 - svg
 - png
 - jpeg
+- user flow
+- user journey
+- customer journey
 
 ## todos
 - indicare come usare l'app con la tastiera
